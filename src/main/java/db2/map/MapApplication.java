@@ -18,7 +18,7 @@ public class MapApplication {
 		try {
 			Class.forName("org.postgresql.Driver");
 			cn = DriverManager.getConnection(
-					"jdbc:postgresql://localhost:5432/", "postgres", "password");
+					"jdbc:postgresql://localhost:5432/", "postgres", "postgres");
 			if (cn != null) {
 				System.out.println("Connection successfull");
 			} else {

@@ -1,8 +1,7 @@
 version: "3.1"
 services:
   db:
-    image: postgres
-    container_name: local_pgdb
+    image: postgres:latest
     restart: always
     ports:
       - "5432:5432"
